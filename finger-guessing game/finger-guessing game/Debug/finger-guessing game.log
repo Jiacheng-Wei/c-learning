@@ -1,0 +1,3 @@
+﻿  finger-guessing game.cpp
+f:\visualstudio\finger-guessing game\finger-guessing game\finger-guessing game.cpp(26): warning C4715: “judger”: 不是所有的控件路径都返回值
+  finger-guessing game.vcxproj -> F:\visualstudio\finger-guessing game\Debug\finger-guessing game.exe
