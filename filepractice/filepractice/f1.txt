@@ -1,0 +1,23 @@
+int main()
+{
+	char s[318], fName[20];
+	ifstream f;
+	cout << "please enter the file's name" << endl;
+	cin >> fName;
+	f.open(fName);
+	if (f.fail())
+	{
+		cout << "fail to open the fail" << endl;
+		exit(1);
+	}
+	f.getline(s, 318);
+	while (!f.eof())
+	{
+		cout << s << endl;
+		f.getline(s, 318);
+	}
+	f.close();
+
+	system("pause");
+	return 0;
+}
